@@ -1,0 +1,152 @@
+/*!
+Theme Name: stmarks
+Author: RyanJones
+Version: 0.1
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@font-face {
+  font-family: blackchancery;
+  src: url("blkchcry.ttf"); }
+/* RGB */
+html {
+  height: 100vh; }
+
+body {
+  background-image: url("http://i.imgur.com/izfBluT.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*overflow: hidden;*/
+  font-family: "noto serif", serif;
+  color: #c3c3c3; }
+
+a {
+  color: #3e7157; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #232323; }
+
+/*Site Header*/
+.site-header {
+  margin: 0; }
+  .site-header .title-img {
+    float: left;
+    height: 45px;
+    margin: 10px; }
+  .site-header .site-name {
+    font-family: blackchancery, serif;
+    margin: 10px 0 0; }
+    .site-header .site-name a {
+      color: #aaaaaa;
+      text-decoration: none; }
+  .site-header .site-description {
+    margin: 0;
+    color: #c3c3c3;
+    padding-bottom: 7px;
+    padding-left: 85px; }
+  .site-header .site-nav {
+    margin: 0 auto;
+    padding: 0;
+    height: 43px;
+    width: 800px;
+    list-style: inside none none; }
+    .site-header .site-nav li {
+      float: left;
+      display: block;
+      padding: 10px 14px;
+      text-decoration: none;
+      margin-right: 7px;
+      background: #1c1c1c;
+      position: relative; }
+      .site-header .site-nav li a:link, .site-header .site-nav li a:visited {
+        color: #3e7157; }
+    .site-header .site-nav li:last-of-type {
+      float: right;
+      margin-right: 0; }
+    .site-header .site-nav li:hover {
+      background-color: #191919; }
+    .site-header .site-nav .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0px;
+      top: 42px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      position: absolute; }
+      .site-header .site-nav .dropdown-content a {
+        display: block;
+        padding: 10px 14px;
+        text-decoration: none;
+        margin: 0;
+        background: #1c1c1c;
+        z-index: 1; }
+      .site-header .site-nav .dropdown-content a:hover {
+        background-color: #191919; }
+    .site-header .site-nav .dropdown:hover .dropdown-content {
+      display: block; }
+
+/*End of Header*/
+/*Footer*/
+.site-footer {
+  margin: 7px auto 0;
+  border-top: 1px solid #c3c3c3;
+  padding: 7px 0 0;
+  width: 800px; }
+  .site-footer .related {
+    margin: 0;
+    padding: 0; }
+  .site-footer .extra-links {
+    margin: 0 0 7px;
+    padding: 0;
+    height: 48px;
+    width: 400px;
+    list-style: inside none none; }
+    .site-footer .extra-links li {
+      font-size: 12px;
+      display: block;
+      float: left;
+      padding: 5px 5px;
+      text-decoration: none; }
+      .site-footer .extra-links li a:link, .site-footer .extra-links li a:visited {
+        color: #c3c3c3;
+        text-decoration: none; }
+    .site-footer .extra-links li:nth-child(odd) {
+      border-right: 1px solid #c3c3c3; }
+
+/*End of Footer*/
+.index-post {
+  border-top: 3px solid #232323; }
+
+.index-post:first-of-type {
+  border-top: 0; }
+
+.index-post-title {
+  color: #3e7157;
+  margin-top: 0;
+  width: 776px;
+  padding: 0 14px; }
+  .index-post-title a {
+    color: #aaaaaa;
+    text-decoration: none; }
+
+.index-post-content {
+  color: #c3c3c3;
+  width: 748px;
+  padding: 14px 28px 0; }
+
+.internal-content {
+  background: #1c1c1c;
+  border: 0;
+  border-top: 0;
+  width: 800px;
+  margin: auto; }
+
+#map {
+  height: 400px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

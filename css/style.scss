@@ -1,0 +1,14 @@
+/*!
+Theme Name: stmarks
+Author: RyanJones
+Version: 0.1
+*/
+@font-face{
+  font-family: blackchancery;
+  src: url("blkchcry.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+@import "scss/variables";
+@import "scss/base";
